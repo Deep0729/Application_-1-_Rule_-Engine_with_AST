@@ -67,7 +67,7 @@ This application is a rule engine that determines user eligibility based on attr
    ```bash
    npm start
    ```
-   then click the localhost link
+   **then click the localhost link in the terminal:**
    ```bash
    http://localhost:3000
    ```
@@ -85,7 +85,7 @@ This application is a rule engine that determines user eligibility based on attr
        "ruleName": "Rule 1"
      }
      {
-       rule2 = "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)"
+       "ruleString": "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)"
        "ruleName": "Rule 2"
      }
      ```
