@@ -4,17 +4,16 @@
 
 This application is a rule engine that determines user eligibility based on attributes such as age, department, salary, and experience. It uses an Abstract Syntax Tree (AST) to represent and manage conditional rules, allowing for dynamic rule creation, combination, and evaluation.
 
-<img width="943" alt="image" src="https://github.com/user-attachments/assets/78f6bdca-68aa-4818-a56f-5a50c2023b7f">
-
-
 ## Features
 
 - **Create Rules:** Define rules using a string format that gets converted into an AST.
   
-  <img width="377" alt="image" src="https://github.com/user-attachments/assets/0ffe41aa-7f9c-4fe1-9230-2091bbb16632">
+   ![Screenshot 2024-10-17 220711](https://github.com/user-attachments/assets/4e8ebc88-35c0-498e-8ad6-4ea28dfeadd5)
+   ![Screenshot 2024-10-17 220743](https://github.com/user-attachments/assets/2864fd92-0a03-492e-a562-62b19223a6db)
 
 
 - **Combine Rules:** Combine multiple rules into a single AST for more complex evaluations.
+  
   
   <img width="376" alt="image" src="https://github.com/user-attachments/assets/63145818-6936-4763-8fbe-db65f264e4ff">
 
