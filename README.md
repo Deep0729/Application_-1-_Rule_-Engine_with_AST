@@ -9,26 +9,30 @@ This application is a rule engine that determines user eligibility based on attr
 - **Create Rules:** Define rules using a string format that gets converted into an AST.
   
    ![Screenshot 2024-10-17 220711](https://github.com/user-attachments/assets/4e8ebc88-35c0-498e-8ad6-4ea28dfeadd5)
+  
    ![Screenshot 2024-10-17 220743](https://github.com/user-attachments/assets/2864fd92-0a03-492e-a562-62b19223a6db)
 
 
 - **Combine Rules:** Combine multiple rules into a single AST for more complex evaluations.
   
-  
-  <img width="376" alt="image" src="https://github.com/user-attachments/assets/63145818-6936-4763-8fbe-db65f264e4ff">
+  ![Screenshot 2024-10-17 220829](https://github.com/user-attachments/assets/4c509f4f-bbbf-4fa4-8144-78279107c76d)
+
+  ![Screenshot 2024-10-17 220847](https://github.com/user-attachments/assets/cc9b839e-3540-43c6-b02a-619a9028c1ca)
 
   
 - **Evaluate Rules:** Check if the given data meets the criteria defined by the AST.
-  
-  <img width="375" alt="image" src="https://github.com/user-attachments/assets/041e664f-1711-4bbb-b107-50d5fb7909f4">
+
+  ![Screenshot 2024-10-17 220927](https://github.com/user-attachments/assets/01f90378-8dad-4acb-ab31-d3c6b3008ecb)
+
+  ![Screenshot 2024-10-17 220943](https://github.com/user-attachments/assets/f4971391-1d8d-419a-949f-09c8545f6a90)
 
 
 - **Tree Visualization:** Define or Combine Rule would should show Tree Representation.
 
 ## Tech Stack
 
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Backend:** Using Node.js, Express.js
+- **Database:** Using MongoDB
 
 ## Getting Started
 
@@ -61,7 +65,11 @@ This application is a rule engine that determines user eligibility based on attr
 4. **Start the Backend Server**
 
    ```bash
-   nodemon server.js
+   npm start
+   ```
+   then click the localhost link
+   ```bash
+   http://localhost:3000
    ```
 
 ## API Endpoints
@@ -76,6 +84,10 @@ This application is a rule engine that determines user eligibility based on attr
        "ruleString": "((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')) AND (salary > 50000 OR experience > 5)",
        "ruleName": "Rule 1"
      }
+     {
+       rule2 = "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)"
+       "ruleName": "Rule 2"
+     }
      ```
 use appropriate spaces in Rules for correct results.
 
@@ -86,8 +98,13 @@ variable operator value
 
      ```json
      {
-       "_id": "605c72ef1f4e3a001f4d2e9a",
+       "_id": "67113d109425f27c63a82b5c",
        "rule_name": "Rule1",
+       "rule_ast": { ... }
+     }
+     {
+       "_id": "67113d4d9425f27c63a82b5e",
+       "rule_name": "Rule2",
        "rule_ast": { ... }
      }
      ```
@@ -99,7 +116,7 @@ variable operator value
 
      ```json
      {
-       "ruleIds": ["605c72ef1f4e3a001f4d2e9a", "605c730f1f4e3a001f4d2e9b"]
+       "ruleIds": ["67113d639425f27c63a82b61", "67113d8a9425f27c63a82b64"]
        "operators: op
      }
      ```
@@ -142,4 +159,6 @@ variable operator value
 
 You can add and run tests to ensure everything is working correctly. 
 ```
-created bt: santosh sahoo
+created bt: Deep Dutta
+```
+## THANK YOU
