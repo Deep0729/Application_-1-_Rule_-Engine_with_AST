@@ -1,5 +1,7 @@
 # Rule Engine Application
 
+## Hosted Link: https://application-1-rule-engine-with-ast.onrender.com
+
 ## Overview
 
 This application is a rule engine that determines user eligibility based on attributes such as age, department, salary, and experience. It uses an Abstract Syntax Tree (AST) to represent and manage conditional rules, allowing for dynamic rule creation, combination, and evaluation.
@@ -69,8 +71,9 @@ This application is a rule engine that determines user eligibility based on attr
    ```
    **then click the localhost link in the terminal:**
    ```bash
-   http://localhost:3000
+   http://localhost:3000 (ctrl+click)
    ```
+I already use Rule Name as "Rule1" and "Rule2" for testing so please use another rule name. So That you get the correct output, Otherwise, it shows "Rule Name: undefined"
 
 ## API Endpoints
 
@@ -94,11 +97,12 @@ use appropriate spaces in Rules for correct results.
 Rule should be in follow format:
 variable operator value 
 
+
    - **Response:**
 
      ```json
      {
-       "_id": "67113d109425f27c63a82b5c",
+       "_id": "6711c3937c0aa75e5aceb636",
        "rule_name": "Rule1",
        "rule_ast": { ... }
      }
@@ -116,10 +120,12 @@ variable operator value
 
      ```json
      {
-       "ruleIds": ["67113d639425f27c63a82b61", "67113d8a9425f27c63a82b64"]
+       "ruleIds": ["6711c3ba7c0aa75e5aceb63b", "6711c3fb7c0aa75e5aceb640"]
        "operators: op
      }
      ```
+
+
    - **Response:**
 
      ```json
@@ -131,7 +137,7 @@ variable operator value
      }
      ```
 
-3. **Evaluate a Rule**
+2. **Evaluate a Rule**
    - **Endpoint:** `/api/rules/evaluate_rule`
    - **Method:** POST
    - **Body:**
@@ -147,6 +153,8 @@ variable operator value
        }
      }
      ```
+
+     
    - **Response:**
 
      ```json
