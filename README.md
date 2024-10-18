@@ -1,6 +1,6 @@
 # Rule Engine Application
 
-## Hosted Link: https://application-1-rule-engine-with-ast.onrender.com
+## Hosted Link: https://application1-rule-engine-with-ast.onrender.com
 
 ## Overview
 
