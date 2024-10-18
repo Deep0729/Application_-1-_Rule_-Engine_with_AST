@@ -29,6 +29,11 @@ This application is a rule engine that determines user eligibility based on attr
   ![Screenshot 2024-10-17 220943](https://github.com/user-attachments/assets/f4971391-1d8d-419a-949f-09c8545f6a90)
 
 
+**Database:** This is my database where all the data are stored.
+
+![Screenshot 2024-10-18 080551](https://github.com/user-attachments/assets/9a86e6d3-ddd0-4603-af19-4a64388a71a3)
+
+
 - **Tree Visualization:** Define or Combine Rule would should show Tree Representation.
 
 ## Tech Stack
