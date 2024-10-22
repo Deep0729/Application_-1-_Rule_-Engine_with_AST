@@ -10,23 +10,23 @@ This application is a rule engine that determines user eligibility based on attr
 
 - **Create Rules:** Define rules using a string format that gets converted into an AST.
   
-   ![Screenshot 2024-10-17 220711](https://github.com/user-attachments/assets/4e8ebc88-35c0-498e-8ad6-4ea28dfeadd5)
-  
-   ![Screenshot 2024-10-17 220743](https://github.com/user-attachments/assets/2864fd92-0a03-492e-a562-62b19223a6db)
+   ![Screenshot 2024-10-22 130251](https://github.com/user-attachments/assets/7693be71-1b6e-4f90-bd7b-6161fe5a324d)
+
+   ![Screenshot 2024-10-22 130322](https://github.com/user-attachments/assets/4174797d-719e-469c-8c39-2b157282d207)
 
 
 - **Combine Rules:** Combine multiple rules into a single AST for more complex evaluations.
   
-  ![Screenshot 2024-10-17 220829](https://github.com/user-attachments/assets/4c509f4f-bbbf-4fa4-8144-78279107c76d)
+  ![Screenshot 2024-10-22 130422](https://github.com/user-attachments/assets/9448d787-fbb2-44db-8c87-a90d6ed488b3)
+ 
+  ![Screenshot 2024-10-22 130401](https://github.com/user-attachments/assets/fbb968de-59ee-4611-a48d-6a10819df034)
 
-  ![Screenshot 2024-10-17 220847](https://github.com/user-attachments/assets/cc9b839e-3540-43c6-b02a-619a9028c1ca)
 
-  
 - **Evaluate Rules:** Check if the given data meets the criteria defined by the AST.
 
-  ![Screenshot 2024-10-17 220927](https://github.com/user-attachments/assets/01f90378-8dad-4acb-ab31-d3c6b3008ecb)
+  ![Screenshot 2024-10-22 130552](https://github.com/user-attachments/assets/30ad179b-7558-4e01-9910-24cc50242cdc)
 
-  ![Screenshot 2024-10-17 220943](https://github.com/user-attachments/assets/f4971391-1d8d-419a-949f-09c8545f6a90)
+  ![Screenshot 2024-10-22 130534](https://github.com/user-attachments/assets/317bf9bc-92e1-492d-8b0a-2240d261771b)
 
 
 **Database:** This is my database where all the data are stored.
