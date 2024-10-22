@@ -31,7 +31,7 @@ This application is a rule engine that determines user eligibility based on attr
 
 **Database:** This is my database where all the data are stored.
 
-![Screenshot 2024-10-18 080551](https://github.com/user-attachments/assets/9a86e6d3-ddd0-4603-af19-4a64388a71a3)
+  ![Screenshot 2024-10-22 131014](https://github.com/user-attachments/assets/086eadec-2c75-40fc-a34f-1c922d36c963)
 
 
 - **Tree Visualization:** Define or Combine Rule would should show Tree Representation.
@@ -107,12 +107,12 @@ variable operator value
 
      ```json
      {
-       "_id": "6711c3937c0aa75e5aceb636",
+       "_id": "67175513fa041bc5eb63ad73",
        "rule_name": "Rule1",
        "rule_ast": { ... }
      }
      {
-       "_id": "67113d4d9425f27c63a82b5e",
+       "_id": "67175534fa041bc5eb63ad75",
        "rule_name": "Rule2",
        "rule_ast": { ... }
      }
@@ -125,7 +125,7 @@ variable operator value
 
      ```json
      {
-       "ruleIds": ["6711c3ba7c0aa75e5aceb63b", "6711c3fb7c0aa75e5aceb640"]
+       "ruleIds": ["67175554fa041bc5eb63ad78", "6717556ffa041bc5eb63ad7b"]
        "operators: op
      }
      ```
